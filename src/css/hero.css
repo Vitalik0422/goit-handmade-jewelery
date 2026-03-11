@@ -1,7 +1,7 @@
 .hero {
   background-image:
     radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/hero-mob.jpeg);
+    url(../images/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -10,13 +10,16 @@
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  padding-top: 160px;
-  padding-bottom: 152px;
   @media screen and (min-resolution: 192dpi) {
     background-image:
       radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../images/hero-mob@2x.jpeg);
+      url(../images/hero-mob@2x.jpg);
   }
+}
+
+.hero-container {
+  padding-top: 160px;
+  padding-bottom: 152px;
 }
 
 .hero-content {
