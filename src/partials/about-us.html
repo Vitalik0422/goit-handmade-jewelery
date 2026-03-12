@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us – Handmade Jewelry</title>
+    <link rel="stylesheet" href="../css/about-us.css" />
+  </head>
+  <body>
+    <section class="about">
+      <div class="about_container">
+        <div class="about_media">
+          <picture class="about_picture">
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                /src/images/about-us/about-us-mob.jpg    1x,
+                /src/images/about-us/about-us-mob@2x.jpg 2x
+              "
+            />
+            <source
+              media="(max-width: 1279px)"
+              srcset="
+                /src/images/about-us/about-us-tab.jpg    1x,
+                /src/images/about-us/about-us-tab@2x.jpg 2x
+              "
+            />
+            <img
+              class="about_image"
+              src="/src/images/about-us/about-us-desktop.jpg"
+              srcset="
+                /src/images/about-us/about-us-desktop.jpg    1x,
+                /src/images/about-us/about-as-desktop@2x.jpg 2x
+              "
+              alt="Craftsman shaping a gemstone by hand"
+              width="600"
+              height="520"
+            />
+          </picture>
+        </div>
+
+        <div class="about_content">
+          <h2 class="about_title">The Artistry Behind Handmade Jewelry</h2>
+          <p class="about_text">
+            Handmade Jewelry began as a passion project, inspired by the beauty
+            of nature and the desire to create meaningful pieces. Each item is
+            crafted with love, reflecting our commitment to sustainability and
+            the unique story of its maker.
+          </p>
+
+          <ul class="about_list">
+            <li class="about_item about_item--nature">Inspired by Nature</li>
+            <li class="about_item about_item--love">Handcrafted with Love</li>
+            <li class="about_item about_item--story">
+              Every Piece Tells a Story
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
