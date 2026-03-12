@@ -9,6 +9,7 @@
 @import url('./base.css');
 /* UI styles */
 @import url('./ui/button.css');
+@import url('./ui/menu.css');
 /* Sections style */
 @import url('./header.css');
 

@@ -1,0 +1,22 @@
+.menu-list {
+  display: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+
+}
+
+.menu-list:hover,
+.menu-list:focus {
+  @media screen and (min-width: 1440px) {
+    text-decoration: underline;
+  }
+}
+
+.menu-list:active {
+  color: #8668c7;
+}

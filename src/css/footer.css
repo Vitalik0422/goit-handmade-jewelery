@@ -27,15 +27,7 @@
 .footer-nav-item:not(:last-child) {
     margin-bottom: 32px;
 }
-.footer-nav-link {
-    font-weight: 400;
-        font-size: 18px;
-        line-height: 1.5;
-        color: #000000;
-}
-.footer-nav-link:active {
-    color: #8668c7;
-}
+
 .footer-nav-list {
     margin-bottom: 24px;
     flex-direction: column;
