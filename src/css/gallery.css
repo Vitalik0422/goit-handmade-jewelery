@@ -6,6 +6,10 @@
   display: flex;
   flex-direction: column;
   row-gap: 40px;
+
+  @media (min-width: 768px) {
+    row-gap: 80px;
+  }
 }
 
 .wrapper-text {
@@ -32,16 +36,37 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  @media (min-width: 1440px) {
+    gap: 32px;
+  }
 }
 
-.wraper-left {
+.wrapper-left {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  @media (min-width: 768px) {
+    gap: 32px;
+  }
 }
 
-.wraper-right {
+.wrapper-right {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  @media (min-width: 768px) {
+    gap: 24px;
+  }
+
+  @media (min-width: 1440px) {
+    gap: 32px;
+  }
 }
