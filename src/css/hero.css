@@ -9,6 +9,7 @@
   flex-direction: column;
   padding-top: 160px;
   padding-bottom: 152px;
+  margin: 0 auto;
   gap: 32px;
   @media screen and (min-resolution: 192dpi) {
     background-image:

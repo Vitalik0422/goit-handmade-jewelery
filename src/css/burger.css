@@ -1,6 +1,7 @@
 .burger-container {
   display: flex;
   flex-direction: column;
+  gap: 16px;
 }
 
 .burger-logo-link {
@@ -29,7 +30,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 16px;
 }
 
 .close-burger-btn {
